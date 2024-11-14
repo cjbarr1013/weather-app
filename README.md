@@ -1,13 +1,5 @@
-# webpack-template
+# weather-app
 
-Template repository for new projects that can be adjusted as needed.
+Simple weather app created as part of the Odin Project.
 
-After cloning to your machine:
-
-1. Remove unneeded packages from package.json
-2. Remove unneeded rules from webpack.common.js
-3. Delete unneeded config files
-4. Install all packages by running the following command:
-```
-npm install
-```
+Allows the user to enter any location and will use the Visual Crossing API to return weather data relevant to that location.
