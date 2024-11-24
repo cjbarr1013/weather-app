@@ -1,6 +1,6 @@
 export function MapsAPI() {
   const apiKey = 'AIzaSyAWggmxnep1wqmo8PlO0B8bKURkECp3D9U';
-  const zoom = '14';
+  const zoom = '13';
 
   const getUrl = (coordinates) => {
     return (

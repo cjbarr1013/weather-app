@@ -64,6 +64,7 @@ export function WeatherAPI(locInput = 'new york city, new york') {
       resolvedAddress: rawData['resolvedAddress'],
       latitude: rawData['latitude'],
       longitude: rawData['longitude'],
+      timezone: rawData['timezone'],
       current: {
         time: rawData['currentConditions']['datetime'],
         temp: rawData['currentConditions']['temp'],

@@ -432,6 +432,29 @@ iframe {
 	text-decoration: underline;
 }
 
+.error-container {
+	display: flex;
+	gap: 0.3rem;
+	margin-top: -0.5rem;
+	font-size: 0.8rem;
+	color: #ff0000;
+}
+
+.error-icon {
+	min-width: 1.2rem;
+	min-height: 1.2rem;
+	background: url(../assets/icons/alert-circle.svg) center no-repeat;
+	filter: invert(17%) sepia(89%) saturate(7453%) hue-rotate(1deg) brightness(94%) contrast(116%);
+}
+
+.error-msg {
+	padding-top: 0.18rem;
+}
+
+.hidden {
+	display: none;
+}
+
 .dialog-btns {
 	display: flex;
 	gap: 0.5rem;

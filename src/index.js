@@ -1,2 +1,4 @@
 import './styles.css';
-// import { data } from './modules/App.js';
+import { App } from './modules/App.js';
+
+App();
